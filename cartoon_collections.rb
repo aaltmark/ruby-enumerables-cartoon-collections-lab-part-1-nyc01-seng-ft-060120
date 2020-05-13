@@ -5,5 +5,5 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-  array.each_with_index { |character, index| p "(#{index}+1): #{character}"}
+  array.each_with_index { |character, index| p "(#{index}.to_i+1): #{character}"}
 end
